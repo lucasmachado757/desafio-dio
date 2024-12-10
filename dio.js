@@ -6,6 +6,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Digite o nome do Heroi: ', (nome) => {
+console.log("Haruto")
     rl.question('Digite a quantidade de experiência (XP): ', (xp) => {
         xp = parseInt(xp);
         
@@ -34,3 +35,4 @@ rl.question('Digite o nome do Heroi: ', (nome) => {
         rl.close();
     });
 });
+
